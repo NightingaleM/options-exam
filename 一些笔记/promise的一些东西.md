@@ -29,6 +29,7 @@ Promise.allSettled2 = (promiseLists) =>{
   return Promise.all(promiseLists.map(e=>x(e))).then(result=>console.log(result))
 }
 
+// Promise().then(r=>{}).catch(e=>{e}) === Promise().then(r=>).then((null,e=>{}))
 // ------async await
 async function fn(){
   let response 

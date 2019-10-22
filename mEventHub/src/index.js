@@ -1,3 +1,4 @@
+// TODO: 还少了个once
 class EventHub {
   cache = {}
   on(eventname, fn) {
