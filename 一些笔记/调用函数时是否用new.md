@@ -30,4 +30,5 @@ fn.call({name:'oy'})
 new fn()
 // fn{} true
 
+
 ```
